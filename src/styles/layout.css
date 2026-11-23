@@ -1,0 +1,18 @@
+.page-banner{background:radial-gradient(circle at 85% 10%,#25454d,#10232d 60%);color:#f8f3e8;position:relative;overflow:hidden;padding:96px 0 83px}
+.page-banner-pattern{position:absolute;right:-90px;top:-170px;width:580px;height:580px;border:1px solid rgba(215,178,123,.15);border-radius:50%;box-shadow:0 0 0 60px rgba(215,178,123,.026),0 0 0 130px rgba(215,178,123,.021)}
+.page-banner .container{position:relative}
+.page-banner h1{font-size:clamp(65px,7vw,105px);line-height:.9;margin:31px 0 17px}
+.page-banner p{max-width:600px;font-size:17px;line-height:1.7;color:#c7d3cf;margin:0}
+.section-page{min-height:560px}
+.section-page.section-notices{min-height:470px}
+.section-page .notice-empty{min-height:260px}
+.section-page.section-donation{background:#f8f6f1}
+.site-footer{background:#0b1d26;color:#e9eee9;padding:72px 0 0}
+.footer-grid{display:grid;grid-template-columns:1.5fr .7fr .7fr 1fr;gap:45px;padding-bottom:66px}
+.footer-brand p{max-width:260px;font-size:13px;line-height:1.7;color:#9cb0b1;margin-top:23px}
+.site-footer h2,.footer-address span{font-family:'DM Sans Variable',Arial,sans-serif;font-size:10px;font-weight:800;letter-spacing:.2em;color:#c9a46d;text-transform:uppercase;margin:5px 0 21px}
+.site-footer ul{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.site-footer li a{font-size:13px;color:#bdcac8;transition:color .2s}
+.site-footer li a:hover{color:#f7e7c9}
+.footer-address p{font-size:14px;line-height:1.7;color:#bdcac8}
+.footer-bottom{border-top:1px solid rgba(255,255,255,.11);padding:22px 0 26px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:#8ba0a1}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 80" role="img" aria-labelledby="title desc">
+  <title id="title">Logo e Xhamisë së Madhe</title>
+  <desc id="desc">Tri harqe të stilizuara që formojnë simbolin e xhamisë.</desc>
+  <g fill="none" stroke="#C9A46D" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M7 73V32C7 18 18 7 36 2c18 5 29 16 29 30v41" stroke-width="2.5"/>
+    <path d="M15 73V34c0-10 7-18 21-23 14 5 21 13 21 23v39" stroke-width="1.5"/>
+    <path d="M27 73V40c0-6 3-11 9-14 6 3 9 8 9 14v33" stroke-width="1.5"/>
+    <path d="M7 73h58" stroke-width="2.5"/>
+  </g>
+</svg>

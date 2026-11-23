@@ -1,0 +1,52 @@
+.section-schedule{background:#fbfaf6}
+.schedule-grid{display:grid;grid-template-columns:1.24fr .76fr;gap:42px;align-items:stretch}
+.date-selector{display:flex;align-items:center;justify-content:space-between;gap:25px;background:#f0ede5;border:1px solid #dfd9cd;border-radius:14px;padding:18px 22px;margin:-9px 0 37px}
+.date-selector label{display:block;color:#19343b;font-size:13px;font-weight:800;margin-bottom:3px}
+.date-selector span{display:block;color:#73807b;font-size:11px}
+.date-controls{display:flex;align-items:center;gap:8px}
+.date-controls button,.date-controls input{height:41px;border:1px solid #cfc7b9;border-radius:8px;background:#fbfaf7;color:#213b42}
+.date-controls button{min-width:40px;font-size:25px;line-height:1}
+.date-controls button:disabled{opacity:.4;cursor:not-allowed}
+.date-controls input{padding:0 12px;font-size:13px;font-weight:650;min-width:145px}
+.date-controls .today-control{padding:0 17px;background:#17343c;color:#f7f3ea;border-color:#17343c;font-size:12px;font-weight:750}
+.schedule-wrap{min-width:0}
+.schedule-date{font-size:12px;font-weight:700;color:#806542;text-transform:uppercase;letter-spacing:.11em;margin-bottom:17px}
+.next-prayer-feature{position:relative;display:flex;align-items:center;justify-content:space-between;gap:24px;overflow:hidden;min-height:150px;margin-bottom:14px;padding:24px 27px;border:1px solid rgba(201,164,109,.35);border-radius:15px;background:linear-gradient(120deg,#10232d,#1a3c43);color:#f7f2e8;box-shadow:0 14px 32px rgba(16,35,45,.12)}
+.next-prayer-feature:after{position:absolute;right:-45px;top:-115px;width:240px;height:240px;border:1px solid rgba(201,164,109,.18);border-radius:50%;box-shadow:0 0 0 30px rgba(201,164,109,.03),0 0 0 62px rgba(201,164,109,.025);content:'';pointer-events:none}
+.next-prayer-copy,.next-prayer-time{position:relative;z-index:1}
+.next-prayer-copy{display:grid;gap:5px}
+.next-prayer-label,.next-prayer-remaining,.next-prayer-time>span{color:#c6d1ce;font-size:10px;font-weight:750;letter-spacing:.12em;text-transform:uppercase}
+.next-prayer-label{color:var(--bronze-light)}
+.next-prayer-name{font-family:'Cormorant Garamond',Georgia,serif;font-size:34px;font-weight:500;line-height:1.05}
+.next-prayer-remaining{margin-top:3px}
+.next-prayer-countdown{font-variant-numeric:tabular-nums;font-size:18px;letter-spacing:.08em;color:var(--bronze-light)}
+.next-prayer-time{display:grid;gap:4px;text-align:right}
+.next-prayer-time time{font-family:'Cormorant Garamond',Georgia,serif;font-size:53px;line-height:1;color:var(--bronze-light);font-variant-numeric:tabular-nums}
+.prayer-time-grid{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.prayer-time-card{position:relative;display:flex;min-width:0;min-height:112px;flex-direction:column;justify-content:center;gap:8px;overflow:hidden;padding:15px 12px;border:1px solid #e3dfd5;border-radius:12px;background:#fffefa;color:#18343c;transition:transform .18s,border-color .18s,box-shadow .18s}
+.prayer-time-card:hover{transform:translateY(-2px);border-color:#c9a46d;box-shadow:0 10px 24px rgba(16,35,45,.07)}
+.prayer-time-card h3{margin:0;color:#647176;font-size:12px;font-weight:700}
+.prayer-time-card>time{font-family:'Cormorant Garamond',Georgia,serif;font-size:28px;font-weight:600;line-height:1;color:#17343c;font-variant-numeric:tabular-nums}
+.prayer-time-card.is-next{border-color:#b28c57;background:#f1e7d5;box-shadow:inset 0 0 0 1px rgba(178,140,87,.12)}
+.prayer-time-card.is-next h3,.prayer-time-card.is-next>time{color:#533f27}
+.prayer-time-next-label{color:#896b40;font-size:9px;font-weight:850;letter-spacing:.08em;text-transform:uppercase}
+.prayer-time-adhan{color:#79613f;font-size:10px;font-weight:700}
+.prayer-additional-times{display:flex;flex-wrap:wrap;gap:8px;margin-top:13px}
+.prayer-additional-time{display:flex;align-items:center;gap:8px;padding:8px 11px;border:1px solid #e5e0d5;border-radius:8px;background:#f2efe8;font-size:11px}
+.prayer-additional-time span{color:#687574}
+.prayer-additional-time time{font-weight:750;color:#344b4e;font-variant-numeric:tabular-nums}
+.source-note{margin:17px 0 0;color:#74817f;font-size:11px;line-height:1.55}
+.fajr-note{margin:14px 0 0;padding:12px 14px;background:#f0eee6;border-left:2px solid #b59463;border-radius:0 6px 6px 0;font-size:11px;line-height:1.65;color:#556568}
+.fajr-note strong{color:#765a36}
+.friday-card{background:var(--ink);color:#f7f2e8;border-radius:16px;padding:29px 32px;min-height:365px;position:relative;overflow:hidden;display:flex;flex-direction:column;box-shadow:0 15px 35px rgba(20,42,47,.08)}
+.friday-card:after{content:'';position:absolute;right:-125px;bottom:-160px;width:360px;height:360px;border:1px solid rgba(201,164,109,.22);border-radius:50%;box-shadow:0 0 0 45px rgba(201,164,109,.035),0 0 0 95px rgba(201,164,109,.025)}
+.friday-top,.friday-card h3,.friday-card p,.friday-date,.friday-single-time{position:relative;z-index:1}
+.friday-star{font-size:24px;color:#a7bdba}
+.friday-card h3{font-size:50px;line-height:1;margin:39px 0 18px}
+.friday-card p{font-size:13px;line-height:1.7;color:#becac6;max-width:335px;margin:10px 0 0}
+.friday-date{display:block;color:var(--bronze-light);font-size:11px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;margin-bottom:18px}
+.friday-single-time{border-top:1px solid rgba(255,255,255,.2);padding-top:20px;display:flex;flex-direction:column;gap:4px}
+.friday-single-time span{font-size:11px;color:#c1cfcc;text-transform:uppercase;letter-spacing:.11em}
+.friday-single-time strong{font-family:'Cormorant Garamond',Georgia,serif;font-size:64px;line-height:1;font-weight:500;color:var(--bronze-light)}
+.friday-unavailable{border-top:1px solid rgba(255,255,255,.2);padding-top:23px}
+.source-link{margin-top:27px}

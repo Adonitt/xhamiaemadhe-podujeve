@@ -1,0 +1,28 @@
+.section-donation{padding:96px 0;background:#e8dfcf}
+.donation-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);align-items:center;gap:clamp(42px,7vw,100px)}
+.donation-copy{max-width:510px}
+.donation-copy h2{margin:18px 0 22px;color:#142e37}
+.donation-copy>p{max-width:450px;margin:0;color:#536466;font-size:15px;line-height:1.8}
+.donation-more{margin-top:29px}
+.donation-card{position:relative;overflow:hidden;padding:34px 38px 28px;border:1px solid rgba(228,202,164,.28);border-radius:18px;background:radial-gradient(circle at 100% 0,#24444e,#10232d 58%);color:#f7f3ea;box-shadow:0 24px 60px rgba(16,35,45,.18)}
+.donation-card:after{position:absolute;top:-120px;right:-115px;width:280px;height:280px;border:1px solid rgba(221,190,143,.17);border-radius:50%;box-shadow:0 0 0 38px rgba(221,190,143,.025),0 0 0 78px rgba(221,190,143,.02);content:'';pointer-events:none}
+.donation-card-header,.donation-card h3,.donation-card-intro,.donation-details,.donation-mosque-info,.donation-card-note{position:relative;z-index:1}
+.donation-card-header{display:flex;align-items:center;justify-content:space-between;gap:20px}
+.donation-card-kicker{display:inline-flex;align-items:center;gap:10px;color:#e4caa4;font-size:10px;font-weight:850;letter-spacing:.2em}
+.donation-card-mark{display:grid;place-items:center;width:43px;height:48px;border:1px solid rgba(228,202,164,.34);border-radius:10px;color:#e4caa4}
+.donation-card-mark .arch-mark{width:25px;height:30px}
+.donation-card h3{margin:21px 0 7px;font-size:38px;line-height:1;color:#fff}
+.donation-card-intro{max-width:520px;margin:0;color:#c4d0cc;font-size:13px;line-height:1.65}
+.donation-details{display:grid;gap:0;margin:24px 0 0;padding:0}
+.donation-detail{display:grid;grid-template-columns:minmax(110px,.48fr) 1fr;align-items:center;gap:16px;padding:13px 0;border-top:1px solid rgba(255,255,255,.13)}
+.donation-detail dt{color:#b9c6c2;font-size:11px;font-weight:700;letter-spacing:.04em}
+.donation-detail dd{margin:0;color:#f2eee5;font-size:13px;font-weight:650;text-align:right;overflow-wrap:anywhere}
+.donation-detail .donation-detail-pending{color:#aebbb7;font-size:11px;font-weight:500}
+.donation-detail-iban dd{font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:14px;letter-spacing:.04em}
+.donation-detail-iban .donation-detail-pending{font-family:'DM Sans Variable',Arial,sans-serif;font-size:11px;letter-spacing:0}
+.donation-mosque-info{display:grid;gap:8px;margin-top:12px;padding:17px 18px;border:1px solid rgba(228,202,164,.2);border-radius:11px;background:rgba(255,255,255,.055)}
+.donation-mosque-info>span{color:#e4caa4;font-size:9px;font-weight:850;letter-spacing:.17em;text-transform:uppercase}
+.donation-mosque-info a{display:flex;align-items:center;justify-content:space-between;gap:12px;color:#f1eee7;font-size:12px;line-height:1.55}
+.donation-mosque-info svg{width:16px;height:16px;flex:0 0 auto;color:#e4caa4}
+.donation-card-note{display:flex;align-items:flex-start;gap:9px;margin:18px 0 0;color:#aebbb7;font-size:10px;line-height:1.6}
+.donation-card-note span{color:#e4caa4}

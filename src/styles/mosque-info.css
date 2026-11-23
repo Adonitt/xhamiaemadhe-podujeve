@@ -1,0 +1,27 @@
+.section-mosque-details{background:#eeeae1}
+.mosque-facts-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}
+.mosque-address-card{grid-column:1/-1;display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:18px;padding:23px 26px;border:1px solid rgba(228,202,164,.2);border-radius:14px;background:#10232d;color:#f7f3ea;transition:transform .2s,background .2s}
+.mosque-address-card:hover{transform:translateY(-2px);background:#17343c}
+.mosque-address-icon{display:grid;place-items:center;width:48px;height:52px;border:1px solid rgba(228,202,164,.35);border-radius:10px;color:#e4caa4}
+.mosque-address-icon .arch-mark{width:27px;height:32px}
+.mosque-address-copy{display:grid;gap:6px}
+.mosque-address-copy>span{color:#e4caa4;font-size:9px;font-weight:850;letter-spacing:.17em}
+.mosque-address-copy strong{font-size:14px;font-weight:600;line-height:1.5}
+.mosque-address-card>svg{width:19px;height:19px;color:#e4caa4}
+.mosque-fact-card{min-height:185px;padding:24px 25px;border:1px solid #e1ddd3;border-radius:13px;background:#fbfaf6}
+.mosque-fact-card>span{color:#9b784c;font-size:10px;font-weight:850;letter-spacing:.15em}
+.mosque-fact-card h3{margin:24px 0 8px;color:#17343c;font-size:25px;line-height:1.05}
+.mosque-fact-card p{margin:0;color:#647176;font-size:13px;line-height:1.65}
+.section-imam{background:#fbfaf6}
+.imam-card{display:grid;grid-template-columns:minmax(250px,.72fr) minmax(0,1.28fr);overflow:hidden;border:1px solid #e2ded4;border-radius:16px;background:#f2efe8}
+.imam-photo-wrap{position:relative;min-height:360px;overflow:hidden;background:radial-gradient(circle at 50% 20%,#294952,#10232d 74%);color:#d2b17a}
+.imam-photo-wrap>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.imam-photo-placeholder{position:absolute;inset:0;display:grid;place-items:center;background:radial-gradient(circle at 50% 40%,rgba(201,164,109,.1),transparent 48%)}
+.imam-photo-placeholder .arch-mark-large{width:150px;height:170px;color:rgba(220,188,140,.65)}
+.imam-profile-copy{align-self:center;padding:clamp(30px,5vw,66px)}
+.imam-status{display:inline-flex;align-items:center;gap:9px;padding:8px 11px;border:1px solid #d7c9ad;border-radius:99px;background:#f7f2e8;color:#846640;font-size:9px;font-weight:850;letter-spacing:.14em}
+.imam-profile-copy h3{margin:24px 0 13px;color:#18343c;font-size:clamp(36px,4vw,54px);line-height:.98}
+.imam-profile-copy p{max-width:530px;margin:0;color:#5d6c6d;font-size:15px;line-height:1.8}
+@media(max-width:1100px){.mosque-facts-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.mosque-address-card{grid-column:1/-1}.mosque-fact-card{min-height:0}.mosque-fact-card h3{margin-top:16px}}
+@media(max-width:600px){.mosque-facts-grid{grid-template-columns:1fr}}
+@media(max-width:600px){.mosque-address-card{grid-template-columns:auto minmax(0,1fr);gap:13px;padding:18px}.mosque-address-card>svg{display:none}.mosque-address-copy strong{font-size:12px;overflow-wrap:anywhere}.mosque-fact-card{padding:22px}.imam-card{grid-template-columns:1fr}.imam-photo-wrap{min-height:270px;max-height:300px}.imam-profile-copy{padding:28px 24px 32px}.imam-profile-copy h3{margin-top:19px;font-size:38px}}

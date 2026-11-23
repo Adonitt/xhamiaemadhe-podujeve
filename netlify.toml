@@ -1,0 +1,47 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[functions]
+  directory = "netlify/functions"
+
+[[redirects]]
+  from = "/api/prayer-times"
+  to = "/.netlify/functions/prayer-times"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/sq"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/sq/"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/en"
+  to = "/?lang=en"
+  status = 301
+
+[[redirects]]
+  from = "/en/"
+  to = "/?lang=en"
+  status = 301
+
+[[redirects]]
+  from = "/sq/*"
+  to = "/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/en/*"
+  to = "/:splat"
+  status = 301
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

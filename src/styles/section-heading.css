@@ -1,0 +1,14 @@
+.section{padding:112px 0}
+.section-gallery{background:#eeeae1}
+.gallery-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.gallery-card{position:relative;display:block;min-width:0;aspect-ratio:1.2/1;overflow:hidden;border-radius:13px;background:#17313b;color:#fff}
+.gallery-card:after{content:'';position:absolute;inset:35% 0 0;background:linear-gradient(transparent,rgba(7,19,25,.76));pointer-events:none}
+.gallery-card img{width:100%;height:100%;display:block;object-fit:cover;transition:transform .5s ease}
+.gallery-card:hover img{transform:scale(1.045)}
+.gallery-caption{position:absolute;z-index:1;left:22px;right:20px;bottom:19px;display:flex;align-items:center;justify-content:space-between;gap:15px;font-size:13px;font-weight:650}
+.gallery-caption span:last-child{font-size:19px;color:var(--bronze-light)}
+.section-heading{display:flex;align-items:end;justify-content:space-between;gap:30px;margin-bottom:45px}
+.section-heading h2,.section-about h2,.section-donation h2,.section-visit h2{font-size:clamp(48px,5vw,72px);line-height:.95;margin:15px 0 15px}
+.section-heading p{max-width:620px;margin:0;color:var(--muted);font-size:15px;line-height:1.7}
+.text-link,.source-link{display:inline-flex;align-items:center;gap:12px;font-size:13px;font-weight:700;color:#173d47;white-space:nowrap;border-bottom:1px solid #a7b7b6;padding-bottom:7px}
+.light-link{color:#f3e9d9;border-bottom-color:rgba(255,255,255,.45)}
